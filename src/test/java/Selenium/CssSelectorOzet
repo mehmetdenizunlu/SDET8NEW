@@ -1,0 +1,13 @@
+Css Selector
+div[id='message'][type='text']
+
+> : çocuklarda arama yapar
+  : tüm çocuklarda (cocuk+torun+hepsi) arar
++ : bitişik kardeş e gider
+~ : bütün bitişik kardeşlerde arar
+
+[id^='u_'] ->  ^ bununla(u_) başlayan
+[id$='u_'] ->  $ bununla(u_) biten
+[id*='u_'] ->  * içinde(u_) bu geçen
+
+[id='profile'] > :nth-child(3)  -> çocuklarından 3. ye git
